@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>PPGT SEMARANG</title>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="home.html" class="header__logo">PPGT Semarang</a>
+
+        <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <a href="" class="nav__perfil">
+                    <div class="nav__img">
+                        <img src="assets/img/logo.png" alt="">
+                    </div>
+
+                    <div>
+                        <span class="nav__name">PPGT</span>
+                        <span class="nav__name">Semarang</span>
+                    </div>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home-container" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#courses" class="nav__link">Program Kerja</a></li>
+                        <li class="nav__item"><a href="#tutors" class="nav__link">Organisasi</a></li>
+                        <li class="nav__item dropdown">
+                            <a href="#" class="nav__link dropdown__link">Tentang PPGT<i
+                                    class='bx bx-chevron-down dropdown__icon'></i></a>
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item"><a href="About/sejarah.html" class="nav__link">Sejarah
+                                        PPGT</a></li>
+                                <li class="dropdown__item"><a href="About/visi-dan-misi.html" class="nav__link">Visi dan
+                                        Misi</a></li>
+                                <li class="dropdown__item"><a href="About/hyme-dan-mars.html" class="nav__link">Hyme &
+                                        Mars PPGT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="#footer-id" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home-container">
+        <div id="mySlider"></div>
+        <div id="sliderNav">
+            <div id="sliderPrev" onclick="prevSlide();"><i class="fa fa-chevron-left"></i></div>
+            <div id="sliderNext" onclick="nextSlide();"><i class="fa fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <section id="courses" data-aos="fade-right" data-aos-duration="2000">
+            <div class="kolom1">
+                <h2>Program Kerja</h2>
+                <p>Program kerja adalah rencana atau jadwal kegiatan yang dirancang untuk mencapai tujuan tertentu dalam
+                    suatu organisasi.</p>
+                <p>Berikut program kerja PPGT Semarang.</p>
+                <p><a href="" class="tbl-pink">Download</a></p>
+            </div>
+            <img
+                src="https://img.freepik.com/free-vector/internship-job-concept_23-2148721817.jpg?w=740&t=st=1682525743~exp=1682526343~hmac=c9b55bd67cea692fd3f9494a520395a87a34076decf85f6e62258ff396c944c4" />
+        </section>
+
+        <section id="tutors" data-aos="fade-right" data-aos-duration="2000">
+            <div class="tengah">
+                <div class="kolom2">
+                    <p class="deskripsi">Struktur Organisasi</p>
+                    <h2>PPGT Semarang</h2>
+                </div>
+                <div class="organisasi">
+                    <div class="daftar-struktur">
+                        <img src="foto_ketua.jpeg" alt="gambarketua" />
+                        <p><a href="https://www.instagram.com/qraahito/">Grahito Wisnugraha</a></p>
+                        <p>Ketua</p>
+                    </div>
+                    <div class="daftar-struktur">
+                        <img src="foto_sekretaris.jpeg" alt="gambarsekretaris" />
+                        <p><a href="https://www.instagram.com/ririntandikalua/">Ririn Limbong Tandikalua</a></p>
+                        <p>Sekretaris</p>
+                    </div>
+                    <div class="daftar-struktur">
+                        <img src="foto_bendahara.jpeg" alt="gambarbendahara" />
+                        <p><a href="https://www.instagram.com/thamyraa/">Thamy Ruru Allo</a></p>
+                        <p>Bendahara</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="tutors" data-aos="fade-right" data-aos-duration="2000">
+        <div class="tengah">
+            <div class="kolom2">
+                <p class="deskripsi" style="margin-bottom: 0;">Bidang 1</p>
+                <h2 style="margin: 0; font-size: 25px;">Pengakaran Ajaran Karakter Spritualitas</h2>
+            </div>
+            <div class="organisasi">
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/1.png" alt="" />
+                    <p><a href="https://www.instagram.com/feranipakulla/">Ferani Angelica Pakulla</a></p>
+                    <p>Koordinator</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/2.png" alt="" />
+                    <p><a href="https://www.instagram.com/angelaprl__/">Angel Aprilia Ambalinggi</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/3.png" alt="" />
+                    <p><a href="https://www.instagram.com/kallolangi1818/">Septhian Kallolangi</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/4.png" alt="" />
+                    <p><a href="https://www.instagram.com/christiantapa_/">Christian Agustin Tapa</a></p>
+                    <p>Anggota</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <section id="tutors" data-aos="fade-right" data-aos-duration="2000">
+        <div class="tengah">
+            <div class="kolom2">
+                <p class="deskripsi" style="margin-bottom: 0;">Bidang 2</p>
+                <h2 style="margin: 0; font-size: 25px;">Organisasi</h2>
+            </div>
+            <div class="organisasi">
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/5.png" alt="" />
+                    <p><a href="https://www.instagram.com/gerald.palallo/">Gerald Palallo</a></p>
+                    <p>Koordinator</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/6.png" alt="" />
+                    <p><a href="">Kezia Gabriella Saroinsong</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/7.png" alt="" />
+                    <p><a href="https://www.instagram.com/dendyarmayadi.a/">Dendy Armayadi Ampulembang</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/8.png" alt="" />
+                    <p><a href="https://www.instagram.com/_delpyero/">Simson Delpyero Sambira</a></p>
+                    <p>Anggota</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <section id="tutors" data-aos="fade-right" data-aos-duration="2000">
+        <div class="tengah">
+            <div class="kolom2">
+                <p class="deskripsi" style="margin-bottom: 0;">Bidang 3</p>
+                <h2 style="margin: 0; font-size: 25px;">Sosial dan Lingkungan Hidup</h2>
+            </div>
+            <div class="organisasi">
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/9.png" alt="" />
+                    <p><a href="">Vanessa Sigma Sima Moya</a></p>
+                    <p>Koordinator</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/10.png" alt="" />
+                    <p><a href="">Rinesta Cosinta Sima Moya</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/11.png" alt="" />
+                    <p><a href="https://www.instagram.com/audreymannuela_/">Audrey Mannuela Charity B.</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/12.png" alt="" />
+                    <p><a href="https://www.instagram.com/putri_meredith/">Adelline Putri Meredith</a></p>
+                    <p>Anggota</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <section id="tutors" data-aos="fade-right" data-aos-duration="2000">
+        <div class="tengah">
+            <div class="kolom2">
+                <p class="deskripsi" style="margin-bottom: 0;">Bidang 4</p>
+                <h2 style="margin: 0; font-size: 25px;">Sumber Daya Manusia</h2>
+            </div>
+            <div class="organisasi">
+                <div class="daftar-struktur">
+                    <img src="assets/img/logo.png" alt="" />
+                    <p><a href="https://www.instagram.com/vithawllm/">Tryvitha Wellem</a></p>
+                    <p>Koordinator</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/13.png" alt="" />
+                    <p><a href="https://www.instagram.com/feivelratu_/">Feivel Elianawaty Ratu</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="assets/img/logo.png" alt="" />
+                    <p><a href="https://www.instagram.com/kolosesilitonga/">Kolose Silitonga</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/14.png" alt="" />
+                    <p><a href="https://www.instagram.com/stenlypalallo/">Stenly William Palallo</a></p>
+                    <p>Anggota</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <section id="tutors" data-aos="fade-right" data-aos-duration="2000">
+        <div class="tengah">
+            <div class="kolom2">
+                <p class="deskripsi" style="margin-bottom: 0;">Bidang 5</p>
+                <h2 style="margin: 0; font-size: 25px;">Teknologi Informasi</h2>
+            </div>
+            <div class="organisasi">
+                <div class="daftar-struktur">
+                    <img src="assets/img/logo.png" alt="" />
+                    <p><a href="https://www.instagram.com/leona_enji/">Euanggay Leona Enji</a></p>
+                    <p>Koordinator</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/15.png" alt="" />
+                    <p><a href="https://www.instagram.com/yosiaser/">Yosia Aser Camme</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="ppgt_semarang/16.png" alt="" />
+                    <p><a href="https://www.instagram.com/anugrahexcell/">Anugrah Excell Palute</a></p>
+                    <p>Anggota</p>
+                </div>
+                <div class="daftar-struktur">
+                    <img src="assets/img/logo.png" alt="" />
+                    <p><a href="https://www.instagram.com/celino.mw/">Celino</a></p>
+                    <p>Anggota</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <section id="footer-id" data-aos="fade-right" data-aos-duration="2000">
+        <div id="contact">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <h3>About</h3>
+                        <p>Persekutuan Pemuda Gereja Toraja (PPGT) adalah organisasi pemuda Sinode Gereja Toraja. PPGT
+                            beranggotakan pemuda yang berumur 15-35 tahun.
+                            PPGT merupakan organisasi intra gerejawi yang ada di tiap jemaat Gereja Toraja. Dengan visi
+                            disukai Allah dan manusia, dan misi kader siap
+                            utus, PPGT menjadikan dirinya sebagai wadah pembinaan, pelayanan, dan persekutuan serta
+                            wadah pengembangan karakter pemuda Gereja Toraja.
+                            PPGT yang merupakan wadah pembinaan bagi anggota, berperan untuk menumbuhkan semangat dan
+                            ketulusan dalam pelayanan, mengembangkan talenta
+                            anggotanya, memupuk karakter berdasarkan teladan Kristus, melatih dan mengembangkan
+                            keterampilan berdasarkan kebutuhan dunia kerja,
+                            dan memperdalam iman dan rasa cinta pada Gereja Toraja.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Social</h3>
+                        <div class="button-social">
+                            <button class="button-instagram"
+                                onclick="location.href='https://www.instagram.com/ppgtsemarang/'">
+                                <img src="https://logos-world.net/wp-content/uploads/2020/06/Instagram-Logo.png">
+                            </button>
+                            <button class="button-email" onclick="location.href='mailto:ppgtcabsemarang@gmail.com'">
+                                <img src="https://logos-world.net/wp-content/uploads/2020/11/Gmail-Logo.png">
+                            </button>
+                            <button class="button-wa" onclick="location.href='https://wa.me/6282190608020'">
+                                <img src="https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2024. <b>PPGT Semarang</b> All Rights Reserved.
+        </div>
+    </div>
+
+    <script src="image-slider.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="app.js"></script>
+
+    <script src="active-section.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".mobile-nav i").click(function () {
+                $(".site-nav-menu").toggleClass("mobile-menu");
+            });
+        });
+    </script>
+</body>
+
+</html>
